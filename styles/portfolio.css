@@ -1,0 +1,12 @@
+body {
+    background-color:blue;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    color: white;
+    font-weight: bold;
+
+}
+p {
+    font-weight: normal;
+}
