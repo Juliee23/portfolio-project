@@ -1,12 +1,42 @@
+:root {
+    --brading-color: rgba(15, 71, 48, 0.986);
+    --secondary-color:rgb(202, 180, 180);
+    --heading-font-family: 'Poppins', sans-serif;
+    --default-font-family:Georgia, 'Times New Roman', Times, serif;
+}
 body {
-    background-color:blue;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--default-font-family);
 }
 h1 {
-    color: white;
-    font-weight: bold;
-
+    font-size: 60px;
+    font-family: var(--heading-font-family);
 }
 p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: normal;
+}
+.hero {
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 160px 20px;
+}
+.hero p {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+    font-family: var(--default-font-family);
+}
+.hero h2 {
+    font-family: var(--default-font-family);
+    font-weight: normal;
+    line-height: 2;
+    font-size: 24px;
+}
+.btn-branding {
+    background: var(--brading-color);
+    border-radius: 4px;
+    color: #ffff;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
 }
