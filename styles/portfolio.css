@@ -1,6 +1,6 @@
 :root {
     --brading-color: rgba(15, 71, 48, 0.986);
-    --secondary-color:rgb(202, 180, 180);
+    --secondary-color:rgba(202, 180, 180, 0.24);
     --heading-font-family: 'Poppins', sans-serif;
     --default-font-family:Georgia, 'Times New Roman', Times, serif;
 }
@@ -20,16 +20,16 @@ h1 {
 h2 {
     font-size: 64px;
 }
-h4 {
+h3 {
     font-size: 48px;
 }
 p {
-    font-size: 16px;
-    font-weight: normal;
+    font-size: 20px;
+    font-weight: bold;
     line-height: 30px;
 }
 .content-container{
-  padding: 160px 20px;  
+  padding: 60px 20px;  
 }
 .content h1 {
     font-size: 64px;
@@ -53,7 +53,7 @@ p {
 .hero {
     background: var(--secondary-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 80px 20px;
 }
 .hero p {
     font-size: 24px;
@@ -151,15 +151,12 @@ footer .social-links a:hover {
     h2{
         font-size: 44px;
     }
-    h4 {
+    h3 {
         font-size: 26px;
     }
     .content{
         text-align: center;
         padding: 0;
-    }
-    .hero {
-    padding: 80px 20px;
     }
     .project-description {
         padding: 0;
